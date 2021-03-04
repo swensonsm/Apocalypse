@@ -1,0 +1,43 @@
+body {
+background: orange;
+}
+nav {
+  background: red;
+}
+nav a {
+  color: white;
+}
+h1 {
+  background: yellow; color: purple; text-align: center;
+}
+
+ol li {
+  color: yellow;
+}
+
+.combustion {
+  font-style: bold;
+  font-size: 2em;
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.responsive {
+  max-width: 100%;
+}
+
+.sidebyside img {
+  width: 48%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: blue;
+  }
+.sidebyside img {
+  width: 100%;
+  }
+}
